@@ -1,0 +1,47 @@
+/* styles/tableStyles.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.th,
+.td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.markColumn {
+    width: 100px;
+}
+
+.detailsColumn {
+    width: 300px;
+}
+
+.statusColumn {
+    width: 200px;
+}
+
+.classColumn {
+    width: 200px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.statusMessage {
+    font-weight: bold;
+    color: red;
+}
