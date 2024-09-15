@@ -13,6 +13,7 @@ export default function Home() {
       const response = await fetch(`/api/search?q=${query}`);
       const data = await response.json();
       setSearchResults(data.results);
+      
     }
   };
 
